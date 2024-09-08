@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+.ma_ig{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+ 
+  animation: mymove 3s 1;
+  
+}
+.ch_bt{
+    
+  position: fixed;
+  bottom: 4px;
+  right: 4px;
+  border-radius: 50%;
+  
+  border: 3px solid #3d8bcf;
+
+}
+body{
+    max-width: 100%;
+}
+.ent-text{
+    margin-top: 10px;
+    padding-left: 50px;
+    margin-right: 50%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    animation:  example  3s 1;
+    color: rgb(255, 255, 255);
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background: #010401bb;
+}
+
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+  0%{width:800px;
+    height:800px;
+    }
+  100%{ width: 100px;
+    height: 100px;}
+
+}
+
+.nav_men{
+    font: 900;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+
+.fir{
+    background-image: url("imgs/ent_img.PNG" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    
+}
+.nl{
+    padding-top: 50px;
+    
+}
+.navb{
+    background-color: rgba(0, 0, 0, 0.665);
+    padding-right: 20px;
+    position: static;}
+.ent_img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    animation: include_shadows 5s 1;
+    box-shadow: 4px 0px 0px 20px rgba(0, 0, 0, 0.434);
+    z-index: 1;
+    margin: 20px;
+}
+.ct{
+    background-color: rgb(255, 225, 75);
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.cl{
+    background-color: rgb(125, 243, 67);
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.co{
+    background-color: rgb(99, 75, 255);
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+@keyframes include_shadows{
+    50%{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.434);
+    
+    }
+    100% {box-shadow: 1px 0px 0px 20px rgba(0, 0, 0, 0.434);}
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+.le{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.plac{
+    background-color: #c74815;
+    border-bottom-left-radius: 55px;
+    
+}
+
+.pl_img{
+    background-image: linear-gradient(to right, #c74815, rgb(39, 33, 25));
+    border-top-right-radius: 55px;
+}
+.plac:hover {
+    background-image: linear-gradient(to right, rgb(39, 33, 25), #c74815);
+    color:azure;
+}
+.pl_img{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.plac{
+    position: relative;
+}
+.pl_image:hover {
+    
+    box-shadow: 20px 10px 1000px 10px rgba(0, 0, 0, 0.434);
+  
+
+}
+
+    </style>
+</head>
+<body>
+<div class="fir">
+    <div class="row navb">
+        <div class="col-2 text-center pb-2"><img class="ma_ig " src="imgs/srm_logo.PNG"></div>
+        <div class="col-2 nav_men text-center pt-4 "><a>Home</a></div>
+        <div class="col-2 nav_men text-center pt-4 pl"><a>Admission</a></div>
+        <div class="col-2 nav_men text-center pt-4"><a>About</a></div>
+        <div class="col-2 nav_men text-center pt-4 pl"><a>Placement</a></div>
+        <div class="col-2 nav_men text-center pt-4"><a>Apply</a></div>
+    </div>
+    <div>
+        <div class="row container-fluid">
+            <div class="col"></div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+            <div class="col-2 text-center pt-2 pb-2 ct"><div>Campus Tour</div></div>
+            <div class="col-2 text-center pt-2 pb-2 cl "><div>Collegiate</div></div>
+            <div class="col-2 text-center pt-2 pb-2 co"><div>Contact</div></div>
+        </div>
+    </div>
+  
+        <div class="ent-text col-6">
+            <h1 style="font-size: 2.5rem;">
+                "World Class education <br>now at Trichy"
+            </h1>
+        </div>
+
+    <div class="nl text-center">
+        <img class="ent_img"src="imgs/srm_logo_name.PNG" width="450" height="300">
+    </div>
+</div>
+<div class="container pt-5 ">
+    <div class="row">
+        <div class="col-6 p-5 plac">
+            <h2 style="font-size: 3rem;">BLOG</h2>
+        <p style="font-size: 1.5rem;">Not yet posted</p>
+        <hr>
+        </div>
+        <div class="col-6 isplay-1 text-center  pl_img">
+            <img class="pl_image" src="imgs/place_img.PNG" alt="">
+        </div>
+    </div>
+</div>
+
+
+    
+    <button class="ch_bt">
+        <img src="imgs/catbtn.PNG" alt="chatbtn" width="60px" height=60px" 
+        style="border-radius: 50%;">
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
